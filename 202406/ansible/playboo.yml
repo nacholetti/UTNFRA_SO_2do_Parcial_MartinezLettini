@@ -1,0 +1,7 @@
+---
+- name: Configuración del 2do Parcial
+  hosts: localhost
+  become: yes
+  roles:
+    - 2do_parcial
+
